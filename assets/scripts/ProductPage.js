@@ -28,7 +28,7 @@ window.addEventListener("load", () => {
     //   yPercent: 0,
     // },
     {
-      bottom: "50%",
+      bottom: "56%",
       right: "50%",
       position: "fixed",
       xPercent: 50,
@@ -55,11 +55,11 @@ window.addEventListener("load", () => {
         end: "top top",
         scrub: true,
         pin: false,
-        // snap: {
-        //   snapTo: 1,
-        //   duration: 1,
-        //   ease: "power1.inOut",
-        // },
+        snap: {
+          snapTo: 1,
+          duration: 1,
+          ease: "power1.inOut",
+        },
       },
     });
 
